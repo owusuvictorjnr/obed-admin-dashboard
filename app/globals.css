@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply
+  bg-[#caf0f8]
+}
+
+input {
+  @apply w-[30rem]
+  border 
+  border-gray-200
+  py-2
+  px-6
+  bg-zinc-100/40
+  focus:ring-0
+}
