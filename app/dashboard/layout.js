@@ -25,7 +25,7 @@ const Sidebar = () => {
             </button>
           </div>
           <div className="">
-            <button onClick={() => router.push('/dashboard')} className="">
+            <button onClick={() => router.push('/')} className="">
               home
             </button>
           </div>
